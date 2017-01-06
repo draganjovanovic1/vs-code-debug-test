@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "F sharp (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build F sharp",
+            "program": "${workspaceRoot}/src/F-sharp-test/bin/Debug/netcoreapp1.1/F-sharp-test.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "externalConsole": false
+        },
+        {
+            "name": "C sharp (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build C sharp",
+            "program": "${workspaceRoot}/src/C-sharp-test/bin/Debug/netcoreapp1.1/C-sharp-test.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "externalConsole": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command.pickProcess}"
+        }
+    ]
+}
