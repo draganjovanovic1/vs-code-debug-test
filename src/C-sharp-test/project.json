@@ -5,6 +5,7 @@
     "Dragan Jovanovic"
   ],
   "buildOptions": {
+    "debugType": "portable",
     "emitEntryPoint": true
   },
   "dependencies": {
