@@ -1,6 +1,6 @@
 open System
 
 [<EntryPoint>]
-let main argv = 
-    printfn "%s" <| DateTime.Now.ToString ()
+let main _ =
+    printfn "%s" <| (DateTime.Now.ToString ())
     0
