@@ -7,6 +7,14 @@
     "args": [],
     "tasks": [
         {
+            "taskName": "restore all packages",
+            "suppressTaskName": true,
+            "args": [ "restore" ],
+            "isBuildCommand": false,
+            "showOutput": "silent",
+            "problemMatcher": "$msCompile"
+        },
+        {
             "taskName": "build C sharp",
             "suppressTaskName": true,
             "args": [ "build", "src/C-sharp-test" ],
